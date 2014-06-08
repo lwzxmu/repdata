@@ -52,7 +52,7 @@ stepsperInterval[stepsperInterval$steps==max(stepsperInterval$steps),"interval"]
 
 ## STEP4:Imputing missing values  
 
-*Note that there are a number of days/intervals where there are missing values (coded as NA). The presence of missing days may introduce bias into some calculations or summaries of the data.
+**Imputing Strategy:**I use the mean for that 5-minute interval to fill all the NA in the days.
 
 Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
 ```{r report na,echo=TRUE}
