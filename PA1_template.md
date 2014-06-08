@@ -64,15 +64,7 @@ plot(stepsperInterval$interval,
 
 ![plot of chunk ts plot interval](figure/ts plot interval.png) 
 
-```r
-stepsperInterval[stepsperInterval$steps==max(stepsperInterval$steps),"interval"]
-```
-
-```
-## [1] 835
-```
-
-Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
+Find out **Which 5 minutes interval have the maximum steps**
 
 ```r
 stepsperInterval[stepsperInterval$steps==max(stepsperInterval$steps),"interval"]
